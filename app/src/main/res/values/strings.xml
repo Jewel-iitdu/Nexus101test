@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Nexus 101</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="admin_office">Admin Office</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="group">Group</string>
+    <string name="user">User</string>
+    <string name="course">Course</string>
+</resources>
