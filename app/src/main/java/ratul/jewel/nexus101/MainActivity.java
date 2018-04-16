@@ -27,15 +27,16 @@ public class MainActivity extends AppCompatActivity {
         button_teacher.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
-                Intent login = new Intent(MainActivity.this, LoginActivity.class);
+                Intent login = new Intent(MainActivity.this, TeacherLoginActivity.class);
                 startActivity(login);
+
             }
 
             });
         button_student.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
-                Intent login = new Intent(MainActivity.this, LoginActivity.class);
+                Intent login = new Intent(MainActivity.this, StudentLoginActivity.class);
                 startActivity(login);
             }
 
@@ -43,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         button_admin.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
-                Intent login = new Intent(MainActivity.this, LoginActivity.class);
+                Intent login = new Intent(MainActivity.this, AdminLoginActivity.class);
                 startActivity(login);
             }
 
